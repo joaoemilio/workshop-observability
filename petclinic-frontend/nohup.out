@@ -1,0 +1,650 @@
+Your global Angular CLI version (14.1.1) is greater than your local version (13.2.4). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.28 MB |               249.84 kB
+styles.css, styles.js | styles        | 416.38 kB |                53.77 kB
+polyfills.js          | polyfills     | 151.24 kB |                39.14 kB
+scripts.js            | scripts       | 150.68 kB |                43.85 kB
+runtime.js            | runtime       |   1.36 kB |               713 bytes
+
+| Initial Total |   1.98 MB |               387.30 kB
+
+Build at: 2022-08-07T23:10:24.296Z - Hash: dcc9e8bcc3a14a6b - Time: 24005ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\""
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Your global Angular CLI version (14.1.1) is greater than your local version (13.2.4). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.28 MB |               249.84 kB
+styles.css, styles.js | styles        | 416.38 kB |                53.77 kB
+polyfills.js          | polyfills     | 151.24 kB |                39.14 kB
+scripts.js            | scripts       | 150.68 kB |                43.85 kB
+runtime.js            | runtime       |   1.36 kB |               713 bytes
+
+| Initial Total |   1.98 MB |               387.30 kB
+
+Build at: 2022-08-07T23:18:29.377Z - Hash: dcc9e8bcc3a14a6b - Time: 22893ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\""
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size | Estimated Transfer Size
+main.js             | main    | 184.99 kB |                48.32 kB
+runtime.js          | runtime |   1.28 kB |               687 bytes
+
+3 unchanged chunks
+
+Build at: 2022-08-08T00:36:09.148Z - Hash: ab91bc1f456a45d5 - Time: 13120ms
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\""
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+./src/main.ts:21:0-45 - Error: Module not found: Error: Can't resolve './app/app.module' in '/home/ec2-user/elastic-apm-workshop/petclinic-frontend/src'
+
+Error: src/main.ts:24:27 - error TS2307: Cannot find module './app/app.module' or its corresponding type declarations.
+
+24 import { AppModule } from './app/app.module';
+                             ~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size | Estimated Transfer Size
+main.js             | main    | 185.34 kB |                48.55 kB
+runtime.js          | runtime |   1.28 kB |               686 bytes
+
+3 unchanged chunks
+
+Build at: 2022-08-08T00:36:21.150Z - Hash: d757610d06d31e61 - Time: 11880ms
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\""
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):
+Error: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/app.module.ts is missing from the TypeScript compilation. Please make sure it is in your tsconfig via the 'files' or 'include' property.
+    at /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@ngtools/webpack/src/ivy/loader.js:60:26
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error: src/main.ts:24:27 - error TS2307: Cannot find module './app/app.module' or its corresponding type declarations.
+
+24 import { AppModule } from './app/app.module';
+                             ~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.33 MB |               266.86 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               903 bytes
+
+| Initial Total |   2.04 MB |               404.70 kB
+
+Build at: 2022-08-09T15:49:18.145Z - Hash: 47224e98e1c2d081 - Time: 23564ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@angular/material-moment-adapter/fesm2020/material-moment-adapter.mjs depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/error-logging/error-logging.js depends on 'error-stack-parser'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/constants'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/span'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/tracer'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.27 MB |               248.80 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               906 bytes
+
+| Initial Total |   1.98 MB |               386.64 kB
+
+Build at: 2022-08-11T14:47:01.336Z - Hash: aeac78e330ecca27 - Time: 47829ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@angular/material-moment-adapter/fesm2020/material-moment-adapter.mjs depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size | Estimated Transfer Size
+main.js             | main    | 182.58 kB |                48.11 kB
+runtime.js          | runtime |   1.27 kB |               684 bytes
+
+3 unchanged chunks
+
+Build at: 2022-08-11T15:21:44.129Z - Hash: 2f7ebafbbe3e1469 - Time: 13105ms
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+./src/main.ts:21:0-45 - Error: Module not found: Error: Can't resolve './app/app.module' in '/home/ec2-user/elastic-apm-workshop/petclinic-frontend/src'
+
+Error: src/main.ts:24:27 - error TS2307: Cannot find module './app/app.module' or its corresponding type declarations.
+
+24 import { AppModule } from './app/app.module';
+                             ~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size | Estimated Transfer Size
+main.js             | main    | 182.96 kB |                48.31 kB
+runtime.js          | runtime |   1.27 kB |               683 bytes
+
+3 unchanged chunks
+
+Build at: 2022-08-11T15:21:56.019Z - Hash: ab2077b53a96f166 - Time: 11769ms
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):
+Error: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/app.module.ts is missing from the TypeScript compilation. Please make sure it is in your tsconfig via the 'files' or 'include' property.
+
+Error: src/main.ts:24:27 - error TS2307: Cannot find module './app/app.module' or its corresponding type declarations.
+
+24 import { AppModule } from './app/app.module';
+                             ~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size | Estimated Transfer Size
+runtime.js          | runtime |  1.27 kB |               682 bytes
+
+4 unchanged chunks
+
+Build at: 2022-08-11T15:24:22.414Z - Hash: 3d6cec00199bdbf8 - Time: 3636ms
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):
+Error: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/app.module.ts is missing from the TypeScript compilation. Please make sure it is in your tsconfig via the 'files' or 'include' property.
+
+Error: src/main.ts:24:27 - error TS2307: Cannot find module './app/app.module' or its corresponding type declarations.
+
+24 import { AppModule } from './app/app.module';
+                             ~~~~~~~~~~~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46CWarning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.33 MB |               266.63 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               904 bytes
+
+| Initial Total |   2.04 MB |               404.47 kB
+
+Build at: 2022-08-11T15:27:55.425Z - Hash: 0f43acdfa5b3808b - Time: 49911ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@angular/material-moment-adapter/fesm2020/material-moment-adapter.mjs depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/error-logging/error-logging.js depends on 'error-stack-parser'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/constants'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/span'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/tracer'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+- @elastic/apm-rum-angular [es2015/esm2015] (https://github.com/elastic/apm-agent-rum-js.git)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.33 MB |               266.63 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               900 bytes
+
+| Initial Total |   2.04 MB |               404.47 kB
+
+Build at: 2022-08-12T01:21:57.903Z - Hash: 2d9fed1e76dd9143 - Time: 26966ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/error-logging/error-logging.js depends on 'error-stack-parser'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/constants'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/span'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/tracer'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pets/pet-add/pet-add.component.ts depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size | Estimated Transfer Size
+runtime.js          | runtime |  1.77 kB |               902 bytes
+
+4 unchanged chunks
+
+Build at: 2022-08-12T01:22:09.057Z - Hash: ea0a339f26799726 - Time: 10880ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@angular/material-moment-adapter/fesm2020/material-moment-adapter.mjs depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+✔ Compiled successfully.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.33 MB |               266.63 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               900 bytes
+
+| Initial Total |   2.04 MB |               404.47 kB
+
+Build at: 2022-08-12T10:03:09.669Z - Hash: 2d9fed1e76dd9143 - Time: 24081ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/error-logging/error-logging.js depends on 'error-stack-parser'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/constants'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/span'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/tracer'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pets/pet-add/pet-add.component.ts depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Warning: 'outputHashing' option is disabled when using the dev-server.
+****************************************************************************************
+This is a simple server for use in testing or debugging Angular applications locally.
+It hasn't been reviewed for security issues.
+
+DON'T USE IT FOR PRODUCTION!
+****************************************************************************************
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size | Estimated Transfer Size
+main.js               | main          |   1.33 MB |               266.63 kB
+styles.css, styles.js | styles        | 419.62 kB |                54.02 kB
+scripts.js            | scripts       | 150.69 kB |                43.92 kB
+polyfills.js          | polyfills     | 150.23 kB |                39.02 kB
+runtime.js            | runtime       |   1.77 kB |               900 bytes
+
+| Initial Total |   2.04 MB |               404.47 kB
+
+Build at: 2022-08-12T10:04:32.250Z - Hash: 2d9fed1e76dd9143 - Time: 22897ms
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/error-logging/error-logging.js depends on 'error-stack-parser'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/constants'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/span'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/@elastic/apm-rum-core/dist/es/opentracing/tracer.js depends on 'opentracing/lib/tracer'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pets/pet-add/pet-add.component.ts depends on 'moment'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /home/ec2-user/elastic-apm-workshop/petclinic-frontend/src/app/pettypes/pettype.service.ts depends on 'rxjs/internal/operators'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: ▲ [WARNING] Expected identifier but found "\"spinner\"" [css-syntax-error]
+
+    styles.css:9254:11:
+      9254 │ @keyframes "spinner"{from{transform:rotate(0deg)}to{transform:ro...
+           ╵            ~~~~~~~~~
+
+
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+<e> [webpack-dev-middleware] HookWebpackError: Cannot find package 'globby' imported from /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/copy-webpack-plugin/dist/index.js
+<e>     at makeWebpackError (/home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/webpack/lib/HookWebpackError.js:48:9)
+<e>     at /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/webpack/lib/Compilation.js:3060:12
+<e>     at eval (eval at create (/home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:159:1)
+<e>     at /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/webpack/lib/Compilation.js:510:26
+<e>     at /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/copy-webpack-plugin/dist/index.js:710:13
+<e>     at runMicrotasks (<anonymous>)
+<e>     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+<e> -- inner error --
+<e> Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'globby' imported from /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/copy-webpack-plugin/dist/index.js
+<e>     at new NodeError (node:internal/errors:372:5)
+<e>     at packageResolve (node:internal/modules/esm/resolve:954:9)
+<e>     at moduleResolve (node:internal/modules/esm/resolve:1003:20)
+<e>     at defaultResolve (node:internal/modules/esm/resolve:1218:11)
+<e>     at ESMLoader.resolve (node:internal/modules/esm/loader:580:30)
+<e>     at ESMLoader.getModuleJob (node:internal/modules/esm/loader:294:18)
+<e>     at ESMLoader.import (node:internal/modules/esm/loader:380:22)
+<e>     at importModuleDynamically (node:internal/modules/cjs/loader:1043:29)
+<e>     at importModuleDynamicallyWrapper (node:internal/vm/module:437:21)
+<e>     at importModuleDynamically (node:vm:381:46)
+<e> caused by plugins in Compilation.hooks.processAssets
+<e> Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'globby' imported from /home/ec2-user/elastic-apm-workshop/petclinic-frontend/node_modules/copy-webpack-plugin/dist/index.js
+<e>     at new NodeError (node:internal/errors:372:5)
+<e>     at packageResolve (node:internal/modules/esm/resolve:954:9)
+<e>     at moduleResolve (node:internal/modules/esm/resolve:1003:20)
+<e>     at defaultResolve (node:internal/modules/esm/resolve:1218:11)
+<e>     at ESMLoader.resolve (node:internal/modules/esm/loader:580:30)
+<e>     at ESMLoader.getModuleJob (node:internal/modules/esm/loader:294:18)
+<e>     at ESMLoader.import (node:internal/modules/esm/loader:380:22)
+<e>     at importModuleDynamically (node:internal/modules/cjs/loader:1043:29)
+<e>     at importModuleDynamicallyWrapper (node:internal/vm/module:437:21)
+<e>     at importModuleDynamically (node:vm:381:46)
